@@ -54,19 +54,26 @@ main{
     text-align: center;
     display: block;
 }
+
 div .dados-pessoais,.senha{
     padding: 20px 0px 0px 0px;
     margin-top: 20px;
-    border-radius: 10px;
     border: 0px;
     padding-bottom: 20px;
     font-family: var(--font01);
     font-weight: bolder;
     margin-bottom: 15px;
+    
+}
+#div-principal #input{
+    border-radius: 5px;
+    border: 0;
+    box-shadow:  1px 1px 2px  rgba(0, 0, 0, 0.547);
 }
 
 .leg-dados,.leg-senha{
-    margin-bottom: 7px;
+    
+    padding-top: 10px;
     font-size:  1.5em;
 }
 

@@ -19,30 +19,30 @@
                 <legend class="leg-dados">Dados Pessoais</legend>
 
                  <div class="div">
-                        <input type="text" name="nome" id="inome" placeholder="                      Nome Completo" required >
-                 </div><br>
+                        <input id="input" type="text" name="nome" id="inome" placeholder="                      Nome Completo" required >
+                 </div>
+                 <br>
                  <div class="div">
-                    <label class="data-nas" for="iani">Data de Nascimento</label>
+                    <label  class="data-nas" for="iani">Data de Nascimento</label>
                 </div>
                 <div class="div">
-                        <input class="data" type="date" name="aniversario" id="iani"    required>
-                 </div><br>
-
+                        <input id="input" class="data" type="date" name="aniversario" id="iani"    required>
+                 </div>
+                 <br>
                  <fieldset id="radio">
                      <div class="div">
                         <div class="radio">
                             <label class="c" for="ifem">Feminimo:</label>
                                <input  type="radio" name="sexo" id="ifem" required>
                             <label  class="d" for="imas">Masculino:</label>
-                               <input type="radio" name="sexo" id="imas">
+                               <input  type="radio" name="sexo" id="imas">
                         </div>
                     </div>
                  </fieldset>
                    
                  <div class="div">
-                    <input class="e" type="tel" name="tel" id="itel"placeholder="                          Telefone" required>
+                    <input id="input" class="e" type="tel" name="tel" id="itel"placeholder="                          Telefone" required>
                 </div>
-    
             </fieldset>
 
             <hr color="black">
@@ -51,26 +51,21 @@
                 <legend class="leg-senha">Dados para login:</legend>
 
                 <div class="div">
-                    
-                    <input type="email" name="email" id="iemail" autocomplete="email" placeholder="                           Email" required>
-                </div><br>
-
-                <div class="div">
-                   
-                        <input type="password" name="senha" id="isenha" placeholder="        Nova Senha   min 8 caracteres" required>
-                </div> <br>
-                <div class="div">
-                    
-                        <input type="password" name="rep.senha" id="irep" placeholder="                   Repetir senha" required>
+                    <input id="input" type="email" name="email" id="iemail" autocomplete="email" placeholder="                           Email" required>
                 </div>
-            
+                <br>
+                <div class="div">
+                        <input id="input" type="password" name="senha" id="isenha" placeholder="        Nova Senha   Min. 8 caracteres" required>
+                </div> 
+                <br>
+                <div class="div">
+                        <input id="input" type="password" name="rep.senha" id="irep" placeholder="                   Repetir senha" required>
+                </div>
             </fieldset>
-
             <div class="enviar">
                 <input type="submit" value="Enviar"></div>
 
         </form>
-
     </div>
 </main>
 </body>
