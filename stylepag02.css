@@ -17,6 +17,7 @@
 }
 
 body{
+    width: 100%;
     background-color: #458fde44;
     
 }
@@ -39,7 +40,7 @@ h1{
 main{
     background-color: #587af574;
     max-width: 500px;
-    height: 718px;
+    height: 790px;
     margin: auto;
     border-radius: 10px;
     
@@ -50,13 +51,14 @@ main{
     margin-right: 15px;
     margin-top: 10px;
     text-align: center;
+    display: block;
 }
 div .dados-pessoais,.senha{
-    padding: 10px 0px 4px 0px;
+    padding: 20px 0px 0px 0px;
     margin-top: 20px;
     border-radius: 10px;
     border: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-family: var(--font01);
     font-weight: bolder;
     margin-bottom: 15px;
@@ -75,28 +77,12 @@ div .dados-pessoais,.senha{
     width: 25px;
 }
 
-
-.dados-pessoais .a{
-    padding-right: 22px; 
-}
-.dados-pessoais .b{
-    padding-right: 63px; 
-}
-.dados-pessoais .d{
-    padding-left: 20px; 
-}
-.dados-pessoais .e{
-    width: 250px;
-    padding: 7px;
+.div .e{
     margin-top: 20px;
-   
 }
 
-.senha .a{
-    padding-right: 23px;
-}
-.senha .b{
-    padding-right:39px ;
+.senha .div{
+    margin-top: 16px;
 }
 
 .div input{
@@ -106,8 +92,8 @@ div .dados-pessoais,.senha{
 }
 
 .div .data{
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 0px;
+    
 }
 
 .div .data-nas{
