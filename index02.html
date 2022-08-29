@@ -19,29 +19,28 @@
                 <legend class="leg-dados">Dados Pessoais</legend>
 
                  <div class="div">
-                        <input id="input" type="text" name="nome" id="inome" placeholder="                      Nome Completo" required >
+                        <input  type="text" name="nome" id="inome" autocomplete="name" minlength="5" maxlength="15"  required >
+                        <label>Nome Completo</label>
                  </div>
                  <br>
-                 <div class="div">
-                    <label  class="data-nas" for="iani">Data de Nascimento</label>
-                </div>
                 <div class="div">
-                        <input id="input" class="data" type="date" name="aniversario" id="iani"    required>
+                        <input type="date" name="aniversario" id="iani"  required>
+                        <label class="nascimento" for="iani" >Data de Nascimento</label>
+                        
                  </div>
                  <br>
                  <fieldset id="radio">
-                     <div class="div">
                         <div class="radio">
-                            <label class="c" for="ifem">Feminimo:</label>
-                               <input  type="radio" name="sexo" id="ifem" required>
-                            <label  class="d" for="imas">Masculino:</label>
-                               <input  type="radio" name="sexo" id="imas">
+                            <label>Feminimo:</label>
+                            <input type="radio" name="sexo" id="ifem" required>
+                            <label>Masculino:</label>
+                            <input type="radio" name="sexo" id="imas">
                         </div>
-                    </div>
                  </fieldset>
                    
                  <div class="div">
-                    <input id="input" class="e" type="tel" name="tel" id="itel"placeholder="                          Telefone" required>
+                    <input  type="tel" name="tel" id="itel" autocomplete="mobile" placeholder="                   (XXX)XXXXXXXXX)" pattern="\(\d{3}\)\d{3}\d{3}\d{3}$" required>
+                    <label>Telefone</label>
                 </div>
             </fieldset>
 
@@ -51,15 +50,18 @@
                 <legend class="leg-senha">Dados para login:</legend>
 
                 <div class="div">
-                    <input id="input" type="email" name="email" id="iemail" autocomplete="email" placeholder="                           Email" required>
+                    <input  type="email" name="email" id="iemail" autocomplete="email"   required>
+                    <label>E-mail</label>
                 </div>
                 <br>
                 <div class="div">
-                        <input id="input" type="password" name="senha" id="isenha" placeholder="        Nova Senha   Min. 8 caracteres" required>
+                        <input  type="password" name="senha" id="isenha" minlength="8" maxlength="15" required>
+                        <label >Senha</label>
                 </div> 
                 <br>
                 <div class="div">
-                        <input id="input" type="password" name="rep.senha" id="irep" placeholder="                   Repetir senha" required>
+                        <input  type="password" name="rep.senha" id="irep" minlength="8" maxlength="15" required>
+                        <label> Repetir Senha</label>
                 </div>
             </fieldset>
             <div class="enviar">
